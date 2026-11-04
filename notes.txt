@@ -1,0 +1,18 @@
+Création clé.ssh
+ssh-keygen -t ed25519 -C "blu3m00n@laposte.net"
+Clé créée dans /home/blu3m00n/.ssh/id_ed25519
+
+Enregistrement dans le presse-papier de la clé publique
+xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+
+git add permet d’ajouter des fichiers dans l’index, qui est une zone intermédiaire dans laquelle stocker les fichiers modifiés.
+
+git commit permet de créer une nouvelle version avec les fichiers situés dans l’index.
+
+git commit -m permet de créer une nouvelle version et de préciser le message rattaché au commit.
+
+git push permet d’envoyer les modifications faites en local vers un dépôt distant. 
+
+git checkout permet de basculer d’une branche à une autre.
+
+git merge permet de fusionner deux branches.
